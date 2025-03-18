@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/cruffenach/CRToast.git', :tag => s.version.to_s }
   s.requires_arc = true
   s.platform = :ios
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = "CRToast/*.{h,m}"
   s.public_header_files = "CRToast/CRToast.h", "CRToast/CRToastConfig.h", "CRToast/CRToastManager.h"
